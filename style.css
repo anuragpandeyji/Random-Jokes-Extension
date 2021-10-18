@@ -1,0 +1,20 @@
+body {
+    width: 370px;
+    height: 230px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: inner-flex;
+    margin: auto 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+    border: groove 1em rgb(63, 201, 35);
+    border-radius: 2em;
+    border-width: 14px;
+    padding: 15px;
+}
